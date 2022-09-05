@@ -1,0 +1,133 @@
+body {
+  margin: 0px;
+  font-family: Circular, Helvetica, Arial, sans-serif !important;
+}
+a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+.a-terms {
+  color: black;
+  text-decoration: underline;
+}
+.h1-size {
+  font-size: 60px;
+}
+.font-white {
+  color: white;
+}
+a:hover {
+  color: #1ed760;
+}
+nav {
+  height: 80;
+  background: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main {
+  height: 553px;
+  background-color: rgb(255, 205, 210);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.img-location {
+  display: flex;
+}
+.ImgPlayStore-size {
+  width: 154.99px;
+  height: 60;
+}
+
+.ImgAppStore-size {
+  width: 129.69px;
+  height: 40;
+}
+
+footer {
+  height: 530px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+  height: 346px;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.first-box {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.second-box {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+}
+.sub-title {
+  color: #919496;
+  font-weight: 900;
+  margin: 20px 0px;
+}
+
+.footer-menu-item {
+  padding-bottom: 15px;
+  padding-top: 3px;
+  font-size: 16px;
+}
+
+.icon-box {
+  width: 54px;
+  height: 54px;
+  background-color: #222322;
+  border-radius: 50%;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  font-size: 24px;
+}
+.icon:hover {
+  color: #2de26d;
+}
+
+.first-line {
+  color: #919496;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+}
+
+.second-line {
+  color: #919496;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.second-line-item {
+  margin-right: 24px;
+  color: #919496;
+}
